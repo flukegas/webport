@@ -1,0 +1,604 @@
+body{
+    background-color: #0c011b;
+}
+.setpic{
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: top center;
+}
+.clearboth::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.wrapper {
+    background-image: url("../pic/pro1.png");
+    height: 700px;
+    width: 100%;
+    background-attachment: fixed;
+}
+.read{
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.readbox{
+    height: 500px;
+    width: 500px;
+    float: left;
+    margin-top: 90px;
+    font-family: 'Play', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.header{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 90px;
+    width: 1200px;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+}
+
+.header-main{
+    height: 30px;
+    width: 170px;
+}
+
+.logo{
+    display: block; /* ทำให้รูปภาพเรียงตัวกลางตามแนวนอน */
+    margin: 0 auto; /* จัดวางรูปภาพตรงกลางในแนวนอน */
+    float: left;
+}
+
+.header-text{
+    font-family: 'Play', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    width: 130px;
+    float: left;
+    padding-top: 2px;
+}
+
+.header-box{
+    margin: 0 auto;
+    height: 30px;
+    width: 600px;
+}
+
+.header-contact{
+    height: 20px;
+    width: 160px;
+}
+.contact-logo{
+    height: 16px;
+    width: 16px;
+    margin-bottom: 1px;
+}
+.contact-logo1{
+    height: 20px;
+    width: 20px;
+}
+.logo-margin{
+    margin-left: 14px;
+}
+
+.link-box {
+    margin-left: 40px;
+    display: inline-block; /* ให้ลิงก์แสดงเป็นกล่องแบบ inline block */
+    text-decoration: none; /* ลบขีดเส้นใต้ข้อความลิงก์ */
+    cursor: pointer; /* เปลี่ยนรูปแบบเคอร์เซอร์เป็น "pointer" */
+    font-family: 'Play', sans-serif;
+}
+.boxf{
+    border-bottom: 2px solid #3498db;
+}
+.box:hover {
+    border-bottom: 2px solid #3498db;
+  }
+  .box-content1 {
+    /* รูปแบบกล่องที่คุณต้องการ */
+    width: 50px;
+    height: 18px;
+    color: #fff;
+    text-align: center;
+    padding: 6px 0;
+}
+  .box-content2 {
+    width: 85px;
+    height: 18px;
+    color: #fff;
+    text-align: center;
+    padding: 6px 0;
+}
+  .box-content3 {
+    width: 88px;
+    height: 18px;
+    color: #fff;
+    text-align: center;
+    padding: 6px 0;
+}
+  .box-content4 {
+    width: 65px;
+    height: 18px;
+    color: #fff;
+    text-align: center;
+    padding: 6px 0;
+}
+  .box-content5 {
+    width: 80px;
+    height: 18px;
+    color: #fff;
+    text-align: center;
+    padding: 6px 0;
+}
+  .box-content6 {
+    width: 60px;
+    height: 18px;
+    color: #fff;
+    text-align: center;
+    padding: 6px 0;
+}
+
+.wrapper2{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(16, 0, 40)
+}
+
+.wrapper2-box{
+    width: 1200px;
+    height: 530px;
+    padding-top: 110px;
+    margin: 0 auto;
+}
+
+.box-2{
+    width: 360px;
+    height: 530px;
+    float: left;
+    padding: 0 20px;
+}
+.box-main{
+    width: 360px;
+    height: 24px;
+    margin-bottom: 6px;
+}
+.box-head2{
+    font-family: 'Play', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    width: 360px;
+    height: 50px;
+    margin-bottom: 70px;
+    color: #FFF;
+    
+}
+.box-read2{
+    width: 360px;
+    height: 78px;
+    margin-bottom: 50px;
+}
+.box-button{
+    width: 240px;
+    height: 45px;
+    font-family: 'Play', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    color: #FFF;
+    border: #FFF solid 2px ;
+}
+.button{
+    text-decoration: none;
+}
+
+.box2-small{
+    width: 360px;
+    height: 265px;
+
+}
+.box-logo{
+    width: 70px;
+    height: 60px;
+    background-color: rgb(149, 145, 145);
+}
+.box-logo1{
+    background-image: url(../pic/logo/PngItem_4951854.png);
+    width: 70px;
+    height: 70px;
+}
+.box-logo2{
+    background-image: url(../pic/logo/PngItem_1210967.png);
+    width: 70px;
+    height: 70px;
+}
+.box-logo3{
+    background-image: url(../pic/logo/Daco_4879810.png);
+    width: 70px;
+    height: 70px;
+}
+.box-logo4{
+    background-image: url(../pic/logo/NicePng_clap-board-png_8093519.png);
+    width: 70px;
+    height: 70px;
+}
+.box-head{
+    width: 360px;
+    height: 40px;
+    margin: 26px 0 18px;
+}
+.box-read{
+    width: 360px;
+    height: 78px;
+}
+.headtext{
+    font-family: 'Play', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.readtext{
+    font-family: 'Play', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+}
+.box4{
+    width: 360px;
+    height: 220px;
+    background-color: #999999;
+
+}
+.box5{
+    width: 360px;
+    height: 220px;
+    background-color: #999999;
+
+}
+.wrapper3{
+    height: 530px;
+    width: 100%;
+    background-color: rgb(16, 0, 40)
+}
+.wrapper3s{
+    height: 530px;
+    width: 100%;
+    background-color: rgb(3, 1, 56)
+}
+.wrapper3-box{
+    width: 1200px;
+    height: 530px;
+    margin: 0 auto;
+}
+.wrapper3-box-1{
+    width: 1200px;
+    height: 50px;
+    text-align: center;
+    font-family: 'Play', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFF;
+    padding-top: 50px;
+}
+.wrapper3-box-2{
+    margin-top: 60px;
+    width: 1200px;
+    height: 320px;
+}
+.box-2-1{
+    width: 250px;
+    height: 300px;
+    float:left;
+    margin-left: 100px;
+}
+.box-2-2{
+    width: 250px;
+    height: 300px;
+    float:left;
+    margin-left: 125px;
+    float: left;
+}
+.box-2-3{
+    width: 250px;
+    height: 300px;
+    float:right;
+    margin-right: 100px;
+}
+.logo-ed1{
+    width: 220px;
+    height: 250px;
+    background-color: #fff;
+    margin-left: 15px;
+    border-radius: 30px;
+    background-image: url(../pic/logo/logoanubantak1-768x768.png);
+}
+.logo-ed1:hover{
+    width: 220px;
+    height: 250px;
+    background-color: #fff;
+    margin-left: 15px;
+    border-radius: 30px;
+    transform: translate(-5px,-10px);
+    background-image: url(../pic/logo/logoanubantak1-768x768.png);
+}
+.logo-ed2{
+    width: 220px;
+    height: 250px;
+    background-color: #fff;
+    margin-left: 15px;
+    border-radius: 30px;
+    background-image: url(../pic/logo/Logo-TPS-274x300.png)
+}
+.logo-ed2:hover{
+    width: 220px;
+    height: 250px;
+    background-color: #fff;
+    margin-left: 15px;
+    border-radius: 30px;
+    transform: translate(-5px,-10px);
+    background-image: url(../pic/logo/Logo-TPS-274x300.png)
+}
+.logo-ed3{
+    width: 220px;
+    height: 250px;
+    background-color: #fff;
+    margin-left: 15px;
+    border-radius: 30px;
+    background-image: url(../pic/logo/KMUTT_CI_Primary_Logo-Full-2048x2048.png)
+}
+.logo-ed3:hover{
+    width: 220px;
+    height: 250px;
+    background-color: #fff;
+    margin-left: 15px;
+    border-radius: 30px;
+    transform: translate(-5px,-10px);
+    background-image: url(../pic/logo/KMUTT_CI_Primary_Logo-Full-2048x2048.png)
+}
+.edname{
+    width: 250px;
+    height: 60px;
+    margin-top: 30px;
+    color: #fff;
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+/* .wrapper3-box1{
+    height: 700px;
+    width: 33.33%;
+    float: left;
+    margin-right: 10px;
+}
+.wrapper3-box2{
+    height: 700px;
+    width: 33.33%;
+    float: left;
+    margin-right: 10px;
+}
+.wrapper3-box3{
+    height: 700px;
+    width: 32.2%;
+    float: left;
+}
+.box1-1{
+    height: 345px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-image: url("../pic/สกรีนช็อต\ 2023-10-31\ 124219.png");
+}
+.box1-1:hover{
+    height: 345px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-image: url("../pic/สกรีนช็อต\ 2023-10-31\ 124219.png");
+    transform: translate(-5px,-10px);
+}
+.box1-2{
+    height: 345px;
+    width: calc(50%);
+    background-color: #644e4e;
+    float: left;
+    margin-right: 10px;
+    background-image: url("../pic/สกรีนช็อต\ 2023-10-31\ 124824.png");
+}
+.box1-2:hover{
+    height: 345px;
+    width: calc(50%);
+    background-color: #644e4e;
+    float: left;
+    margin-right: 10px;
+    background-image: url("../pic/สกรีนช็อต\ 2023-10-31\ 124824.png");
+    transform: translate(-5px,-10px);
+}
+.box1-3{
+    height: 345px;
+    width: calc(48.386%);
+    background-color: #644e4e;
+    float: left;
+    background-image: url("../pic/สกรีนช็อต\ 2023-10-31\ 124557.png");
+}
+.box1-3:hover{
+    height: 345px;
+    width: calc(48.386%);
+    background-color: #644e4e;
+    float: left;
+    background-image: url("../pic/สกรีนช็อต\ 2023-10-31\ 124557.png");
+    transform: translate(-5px,-10px);
+}
+.box2-1{
+    height: 345px;
+    width: calc(50%);
+    background-color: #644e4e;
+    float: left;
+    margin-right: 10px;
+    background-image: url("../pic/สกรีนช็อต\ 2023-10-31\ 124635.png");
+}
+.box2-1:hover{
+    height: 345px;
+    width: calc(50%);
+    background-color: #644e4e;
+    float: left;
+    margin-right: 10px;
+    background-image: url("../pic/สกรีนช็อต\ 2023-10-31\ 124635.png");
+    transform: translate(-5px,-10px);
+}
+.box2-2{
+    height: 345px;
+    width: calc(48.386%);
+    background-color: #644e4e;
+    float: left;
+    background-image: url("../pic/สกรีนช็อต\ 2023-10-31\ 124253.png");
+}
+.box2-2:hover{
+    height: 345px;
+    width: calc(48.386%);
+    background-color: #644e4e;
+    float: left;
+    background-image: url("../pic/สกรีนช็อต\ 2023-10-31\ 124253.png");
+    transform: translate(-5px,-10px);
+}
+.box2-3{
+    height: 345px;
+    width: 100%;
+    background-color: #644e4e;
+    margin-top: 10px;
+    float: right;
+    background-image: url("../pic/สกรีนช็อต\ 2023-10-31\ 125735.png");
+}
+.box2-3:hover{
+    height: 345px;
+    width: 100%;
+    background-color: #644e4e;
+    margin-top: 10px;
+    float: right;
+    background-image: url("../pic/สกรีนช็อต\ 2023-10-31\ 125735.png");
+    transform: translate(-5px,-10px);
+}
+.box3-1{
+    height: 100%;
+    width: 100%;
+    background-color: #644e4e;
+    background-image: url("../pic/สกรีนช็อต\ 2023-10-31\ 125150.png");
+}
+.box3-1:hover{
+    height: 100%;
+    width: 100%;
+    background-color: #644e4e;
+    background-image: url("../pic/สกรีนช็อต\ 2023-10-31\ 125150.png");
+    transform: translate(-5px,-10px);
+} */
+
+.wrapper4{
+    height: 520px;
+    width: 100%;
+    background-color: rgb(3, 1, 56)
+}
+.wrapper5{
+    height: 520px;
+    width: 100%;
+    background-color: rgb(10, 1, 25)
+}
+.boxpic1{
+    height: 530px;
+    width: 390px;
+    float: left;
+}
+.boxpic1-1{
+    height: 260px;
+    width: 390px;
+    background-color: aqua;
+    background-image: url(../pic/สกรีนช็อต\ 2023-10-31\ 124253.png);
+}
+.boxpic1-2{
+    height: 260px;
+    width: 390px;
+    background-color: rgb(38, 65, 65);
+    margin-top: 10px;
+    background-image: url(../pic/สกรีนช็อต\ 2023-10-31\ 124635.png);
+}
+.boxpic2-1{
+    height: 260px;
+    width: 390px;
+    background-color: aqua;
+    background-image: url(../pic/สกรีนช็อต\ 2023-10-31\ 125610.png);
+}
+.boxpic2-2{
+    height: 260px;
+    width: 390px;
+    background-color: rgb(38, 65, 65);
+    margin-top: 10px;
+    background-image: url(../pic/สกรีนช็อต\ 2023-10-31\ 124219.png);
+}
+.boxpic2{
+    height: 530px;
+    width: 390px;
+    float: left;
+    margin-left: 15px;
+}
+.boxpic3{
+    height: 530px;
+    width: 390px;
+    background-color: rgb(27, 51, 51);
+    float: left;
+    margin-left: 15px;
+    background-image: url(../pic/สกรีนช็อต\ 2023-10-31\ 125150.png);
+}
+.skill1{
+    background-image: url(../pic/logo/PngItem_5147565.png);
+    width: 70px;
+    height: 70px;
+}
+.skill2{
+    background-image: url(../pic/logo/pngegg.png);
+    width: 70px;
+    height: 70px;
+}
+.skill3{
+    background-image: url(../pic/logo/Daco_5614037.png);
+    width: 70px;
+    height: 70px;
+}
+.skill4{
+    background-image: url(../pic/logo/pngkey.com-css3-logo-png-1415612.png);
+    width: 70px;
+    height: 70px;
+}
+.skill5{
+    background-image: url(../pic/logo/PngItem_131193.png);
+    width: 70px;
+    height: 70px;
+}
+.skill6{
+    background-image: url(../pic/logo/python.png);
+    width: 70px;
+    height: 70px;
+}
+.wrapper5-box{
+    width: 1200px;
+    height: 520px;
+    margin: 0 auto;
+}
+.wrapper5-text{
+    width: 1200px;
+    height: 70px;
+    margin-top: 100px;
+    font-family: 'Play', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFF;
+}
+.wrapper5-pic{
+    width: 700px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 70px;
+    background-image: url(../pic/สกรีนช็อต\ 2023-11-05\ 232816.png);
+}
